@@ -13,7 +13,9 @@ I was thinking to create another array named as list2 and make it as a copy of l
 
 > {
 
->  list1[i] = list2[list1.length-i]; }
+>  list1[i] = list2[list1.length-i]; 
+
+>}
  
  However I found list2 would change its variables as well while list1 was being changed. So i searched online about this issue. It turns out that as array is a reference tpye,so if it is copied through "=", it is not actually copying the original variables to another array.In fact, the original one the copied one are sharing those variables. Then i found the method of CopyTo which can help to actually copy variables from one array to another. So i reedit my code as shown below.
  
