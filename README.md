@@ -1,7 +1,7 @@
 ## c#-deepcopy
 Today I was doing an Array practice which requires me to reverse the order of all variables within an array which as shown below.
 
-int[] list1 = {1,2,3,4,5,6} --------> int[] list1 = {6,5,4,3,2,1}
+> int[] list1 = {1,2,3,4,5,6} --------> int[] list1 = {6,5,4,3,2,1}
 I was thinking to create another array named as list2 and make it as a copy of list1, then reassign variables in list1 through list2.
 
 int[] list1 = {1,2,3,4,5,6};
